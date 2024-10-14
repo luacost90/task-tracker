@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 0;
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+
+.container__app{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* border: 1px solid green; */
+    width: 70%;
+}
+
+h1{
+    margin-bottom: 1em;
+}
+
+.input__group{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.task__input{
+    flex: 1;
+    font-size: 1.3em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0 0 15px;
+}
+
+.btn-add{
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li{
+    display: flex;
+    width: 100%;
+    padding: .3em;
+    border-bottom:1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task__group{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    gap:.5em;
+    flex: 1;
+}
+
+button{
+    background-color: #fff;
+    border: none;
+}
+
+.icon{
+    color: #000;
+    cursor: pointer;
+}
+
+.task__status{
+    width: 16px;
+    height: 16px;
+}
